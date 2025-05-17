@@ -400,4 +400,4 @@ CHECK(cudaMemset(d_C, 0, nBytes));
 ![Screenshot 2025-05-17 113612](https://github.com/user-attachments/assets/f683175b-0904-450d-bfea-99a19eb3d90c)
 
 ## RESULT:
-Thus the program has been executed by using CUDA to transpose a matrix. It is observed that there are variations shared memory and global memory implementation. The elapsed times are recorded as _______________.
+The Matrix transposition on shared memory with grid (1,1) block (16,16) is demonstrated successfully.
